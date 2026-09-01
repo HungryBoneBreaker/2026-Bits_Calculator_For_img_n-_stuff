@@ -83,7 +83,7 @@ def integer_check(question, low):
 
 def integer_for_image_check(question, low):
     bad_error = "Please enter an integer that is more than 0"
-    error = f"Please enter an integer (i.e: a positive number without a decimal part)"
+    error = f"Please enter an integer make sure its positive and have no decimals"
     while True:
 
         try:
